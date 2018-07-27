@@ -8,11 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   constructor() { }
-
   greeting = 'Welcome to my Angular App';
   introduction = 'A very large Angular application';
   text = '';
-  list = [1,2,3,4,5];
+  list = ['one', 'two', 'three', 'four', 'five'];
 
   ngOnInit() {
   }
